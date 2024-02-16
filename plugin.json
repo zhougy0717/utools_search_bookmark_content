@@ -1,0 +1,20 @@
+{
+  "version": "1.0.0",
+  "pluginName": "搜索书签内容",
+  "description": "搜索Chrome书签网页内容",
+  "author": "Ben",
+  "homepage": "https://u.tools",
+  "preload": "preload.js",
+  "logo": "logo.png",
+  "features": [
+    {
+      "platform": ["darwin", "win32"],
+      "code": "bm_content",
+      "explain": "搜索Chrome书签网页内容",
+      "cmds": [
+        "bm",
+        "sq"
+      ]
+    }
+  ]
+}
